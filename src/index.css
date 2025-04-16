@@ -1,0 +1,28 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #f0f0f0;
+  --gray: #dddddd;
+  --black: #202020;
+  --yellow: #f59e0b;
+}
+hmtl {
+  font-size: 62.5%;
+}
+body {
+  user-select: none;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url("/img/mountain-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100dvh;
+  color: var(--white);
+}
