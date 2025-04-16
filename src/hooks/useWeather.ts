@@ -41,7 +41,7 @@ export const useWeather = () => {
     setWeather(weatherDefaultValue);
     try {
       const APIKEY = import.meta.env.VITE_API_KEY;
-      const GEOURL = `http://api.openweathermap.org/geo/1.0/direct?q=${search.city},${search.country}&appid=${APIKEY}`;
+      const GEOURL = `https://api.openweathermap.org/geo/1.0/direct?q=${search.city},${search.country}&appid=${APIKEY}`;
       const response = await axios.get(GEOURL);
       const { data } = response;
       if (!data[0]) {
