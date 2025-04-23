@@ -14,7 +14,8 @@
 
 ## 🖼️ Demo
 
-Check out the live version[](https://time-breeze.netlify.app/)
+Check out the app here: [Live Demo](https://time-breeze.netlify.app/) 
+
 
 
 ## 🛠️ Tech Stack
