@@ -1,6 +1,6 @@
-# 🌤️ Breeze
+# 🌤️ Breezy
 
-**Breeze** is a minimal and responsive weather search application that allows users to check the weather conditions of cities around the world. Built with performance and simplicity in mind, it leverages modern React tools and best practices.
+**Breezy** is a minimal and responsive weather search application that allows users to check the weather conditions of cities around the world. Built with performance and simplicity in mind, it leverages modern React tools and best practices.
 
 ## 🚀 Features
 
@@ -12,6 +12,11 @@
 - Real-time error handling and user alerts
 - Typed with TypeScript for better developer experience
 
+## 🖼️ Demo
+
+Check out the live version[](https://time-breeze.netlify.app/)
+
+
 ## 🛠️ Tech Stack
 
 - **React** with **Vite**
@@ -20,6 +25,16 @@
 - **Valibot** – for schema validation
 - **React Spinner** – for loading feedback
 - **CSS Modules** – for styling components
+
+
+---
+
+## 🖼️ Screenshot
+
+![App Screenshot](./screenshots/screenshot.png) <!-- Replace or move screenshot to the correct path if needed -->
+
+---
+
 
 ## 🧱 Project Structure
 
@@ -74,9 +89,6 @@ VITE_API_KEY=your_weather_api_key
    npm run dev
    ```
 
-## 🖼️ Demo
-
-Check out the live version [https://time-breeze.netlify.app/](#)
 
 ## 📝 License
 
